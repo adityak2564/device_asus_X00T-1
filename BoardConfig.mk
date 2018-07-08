@@ -186,6 +186,9 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 # Light
 TARGET_PROVIDES_LIBLIGHT:= true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
