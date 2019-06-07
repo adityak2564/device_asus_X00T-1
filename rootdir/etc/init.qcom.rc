@@ -1220,3 +1220,14 @@ service vendor.sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-servi
     group system wakelock input
     capabilities BLOCK_SUSPEND
     rlimit rtprio 10 10
+
+    # disable wakelocks 
+    write /sys/module/wakeup/parameters/enable_qcom_rx_wakelock_ws 0
+    write /sys/module/wakeup/parameters/enable_wlan_extscan_wl_ws 0
+    write /sys/module/wakeup/parameters/enable_ipa_ws 0
+    write /sys/module/wakeup/parameters/enable_wlan_ws 0
+    write /sys/module/wakeup/parameters/enable_timerfd_ws 0
+    write /sys/module/wakeup/parameters/enable_netlink_ws 0
+    write /sys/module/wakeup/parameters/enable_netmgr_wl_ws 0
+    write /sys/module/wakeup/parameters/enable_wlan_pno_wl_ws 0
+    write /sys/module/wakeup/parameters/enable_wcnss_filter_lock_ws 0
