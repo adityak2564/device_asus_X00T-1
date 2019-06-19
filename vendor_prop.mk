@@ -84,8 +84,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.coresight.config=stm-events
 
 # FM
-#PRODUCT_PROPERTY_OVERRIDES += \
-#	vendor.fm.a2dp.conc.disabled=false
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.fm.a2dp.conc.disabled=false \
+    vendor.bluetooth.soc=cherokee   
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \

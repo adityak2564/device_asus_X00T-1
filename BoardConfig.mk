@@ -171,8 +171,8 @@ endif
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # FM
-#BOARD_HAS_QCA_FM_SOC := "cherokee"
-#BOARD_HAVE_QCOM_FM := true
+BOARD_HAS_QCA_FM_SOC := "cherokee"
+BOARD_HAVE_QCOM_FM := true
 
 # GPS
 TARGET_NO_RPC := true
