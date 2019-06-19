@@ -2401,6 +2401,9 @@ case "$target" in
             # cpuset settings
             echo 0-3 > /dev/cpuset/background/cpus
             echo 0-3 > /dev/cpuset/system-background/cpus
+            echo 0-3 > /dev/cpuset/foreground/cpus
+            echo 0-7 > /dev/cpuset/restricted/cpus
+            echo 0-7 > /dev/cpuset/top-app/cpus
 
             # disable thermal bcl hotplug to switch governor
             echo 0 > /sys/module/msm_thermal/core_control/enabled
