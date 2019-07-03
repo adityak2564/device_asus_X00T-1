@@ -186,7 +186,9 @@ PRODUCT_PACKAGES += \
     libvulkan \
     libtinyxml \
     memtrack.sdm660 \
-    libgenlock
+    libgenlock \
+    FOSSConfig.xml
+
 
 # DRM
 PRODUCT_PACKAGES += \
