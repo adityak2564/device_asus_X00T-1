@@ -164,8 +164,8 @@ PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
 # Dirac
-PRODUCT_PACKAGES += \
-    Dirac
+#PRODUCT_PACKAGES += \
+#   Dirac
 
 # Display
 PRODUCT_PACKAGES += \
