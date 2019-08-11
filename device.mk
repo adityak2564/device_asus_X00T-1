@@ -159,17 +159,11 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     copybit.sdm660 \
-    gralloc.sdm660 \
-    hwcomposer.sdm660 \
-    libdisplayconfig \
     liboverlay \
-    libqdMetaData.system \
     libvulkan \
     libtinyxml \
-    memtrack.sdm660 \
     libgenlock \
     FOSSConfig.xml
-
 
 # DRM
 PRODUCT_PACKAGES += \
