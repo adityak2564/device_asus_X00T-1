@@ -83,22 +83,22 @@ void vendor_check_variant()
     if (sys.totalram > 4096ull * 1024 * 1024) {
         // Russian model
         if (region == "RU") {
-            build_fingerprint = "asus/RU_X00TD/ASUS_X00T_9:9/PKQ1/16.2017.1906.055-20190703:user/release-keys";
+            build_fingerprint = "asus/RU_X00TD/ASUS_X00T_9:9/PKQ1/16.2017.1906.057-20190816:user/release-keys";
 
         // Global model
         } else {
-            build_fingerprint = "asus/WW_X00TD/ASUS_X00T_3:9/PKQ1/16.2017.1906.056-20190722:user/release-keys";
+            build_fingerprint = "asus/WW_X00TD/ASUS_X00T_3:9/PKQ1/16.2017.1906.057-20190816:user/release-keys";
         }
 
     // 3/4 GB variants
     } else {
         // Russian model
         if (region == "RU") {
-            build_fingerprint = "asus/RU_X00TD/ASUS_X00T_6:9/PKQ1/16.2017.1906.055-20190703:user/release-keys";
+            build_fingerprint = "asus/RU_X00TD/ASUS_X00T_6:9/PKQ1/16.2017.1906.057-20190816:user/release-keys";
 
         // Global model
         } else {
-            build_fingerprint = "asus/WW_X00TD/ASUS_X00T_2:9/PKQ1/16.2017.1906.056-20190722:user/release-keys";
+            build_fingerprint = "asus/WW_X00TD/ASUS_X00T_2:9/PKQ1/16.2017.1906.057-20190816:user/release-keys";
         }
     }
 
