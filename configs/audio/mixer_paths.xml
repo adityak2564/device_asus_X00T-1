@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Copyright (c) 2015-2019, The Linux Foundation. All rights reserved.    -->
+<!-- Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.    -->
 <!--                                                                        -->
 <!-- Redistribution and use in source and binary forms, with or without     -->
 <!-- modification, are permitted provided that the following conditions are -->
@@ -382,10 +382,10 @@
     <ctl name="IIR1 Enable Band3" value="0" />
     <ctl name="IIR1 Enable Band4" value="0" />
     <ctl name="IIR1 Enable Band5" value="0" />
-    <ctl name="IIR1 INP1 Volume" value="53" />
-    <ctl name="IIR1 INP2 Volume" value="53" />
-    <ctl name="IIR1 INP3 Volume" value="53" />
-    <ctl name="IIR1 INP4 Volume" value="53" />
+    <ctl name="IIR1 INP1 Volume" value="84" />
+    <ctl name="IIR1 INP2 Volume" value="84" />
+    <ctl name="IIR1 INP3 Volume" value="84" />
+    <ctl name="IIR1 INP4 Volume" value="84" />
     <ctl name="IIR1 INP1 MUX" value="ZERO" />
 
     <!-- anc related -->
@@ -1993,6 +1993,7 @@
 
     <path name="handset-mic">
         <path name="adc1" />
+        <ctl name="ADC1 Volume" value="10" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
 
@@ -2052,6 +2053,7 @@
 
     <path name="voice-handset">
         <path name="handset" />
+        <ctl name="RX0 Digital Volume" value="90" />
     </path>
 
     <path name="voice-handset-tmus">
@@ -2237,6 +2239,8 @@
 
     <path name="handset-stereo-dmic-ef">
         <path name="handset-dmic-endfire" />
+        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC3 Volume" value="10" />
     </path>
 
     <path name="speaker-stereo-dmic-ef">
